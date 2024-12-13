@@ -13,7 +13,7 @@
 # 1. Messages
 The message parameter is the  conversation history the list of every that we chat with chatbot it save all the history of chat between user ans Chatbot . 
 ### Purpose:
-- It allows the assistant to keep track of chat to maintain a smooth conversation.
+- It allows the ChatBot to keep track of chat to maintain a smooth conversation.
 
 # 2. Model
 The model parameter tells the system which version of the chatbot model to use for generating responses.like ChatGPTgpt-3.5-turbo , gpt-4
@@ -36,19 +36,19 @@ The stream parameter controls whether the model should send the response piece-b
 - It lets you decide if you want to get responses quickly ,or wait for complition.
 
 # 6. Temperature
-The temperature parameter controls how creative or random the assistant responses should be.
-- it is 0.2 and 0.8 
+The temperature parameter controls how creative or random the ChatBot responses should be.
+- It is 0.2 and 0.8 
 ### 0.2
 - The response will be more predictable and serious.
 ### 0.8
-- the response will be more creative or random.
+- The response will be more creative or random.
 ### Purpose:
-- It allows you to control how much variation you want in the assistant answers.
+- It allows you to control how much variation you want in the ChatBot answers.
 
 # 7. Top_p
-Top_p is another way to control the creativity of the response, but it works differently from temperature. It controls how many possible words the assistant can choose from when creating a response.
+Top_p is another way to control the creativity of the response, but it works differently from temperature. It controls how many possible words the ChatBot can choose from when creating a response.
 
 # 8. Tools
-The tools parameter allows the assistant to use external tools (like a calculator, search engine, or other APIs) to answer questions. This lets the assistant do more than just generate text—it can pull in real-time data or perform various tasks.
+The tools parameter allows the ChatBot to use external tools (like a calculator, search engine, or other APIs) to answer questions. This lets the ChatBot do more than just generate text—it can pull in real-time data or perform various tasks.
 ### Purpose:
-- It lets the assistant access external resources to give you better or more accurate answers.
+- It lets the ChatBot access external resources to give you better or more accurate answers.
